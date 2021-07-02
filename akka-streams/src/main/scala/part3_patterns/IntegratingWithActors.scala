@@ -7,6 +7,7 @@ import akka.stream.scaladsl.{Flow, Sink, Source}
 import akka.util.Timeout
 
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 
 object IntegratingWithActors extends App {
   implicit val system: ActorSystem = ActorSystem("actors")

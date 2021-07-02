@@ -6,6 +6,7 @@ import akka.stream.{ActorAttributes, Attributes, RestartSettings}
 import akka.stream.scaladsl.{RestartSource, Sink, Source}
 
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 import scala.util.Random
 
 object FaultTolerance extends App {

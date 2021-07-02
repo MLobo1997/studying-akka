@@ -9,6 +9,7 @@ import akka.util.Timeout
 import java.util.Date
 import scala.concurrent.Future
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 
 object IntegratingWithExternal extends App {
   implicit val system: ActorSystem = ActorSystem("IntegratingExt")

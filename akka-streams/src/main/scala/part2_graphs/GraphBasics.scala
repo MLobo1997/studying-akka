@@ -17,6 +17,7 @@ import akka.stream.scaladsl.{
 }
 
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 
 object GraphBasics extends App {
   implicit val system: ActorSystem = ActorSystem("GraphBasics")

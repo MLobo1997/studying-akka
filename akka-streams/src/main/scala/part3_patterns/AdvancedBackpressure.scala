@@ -6,6 +6,7 @@ import akka.stream.scaladsl.{Flow, Sink, Source}
 
 import java.util.Date
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 
 object AdvancedBackpressure extends App {
   implicit val system: ActorSystem = ActorSystem("AdvBack")

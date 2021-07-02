@@ -5,6 +5,7 @@ import akka.stream.OverflowStrategy
 import akka.stream.scaladsl.{Flow, Sink, Source}
 
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 
 object Backpressure extends App {
 
